@@ -40,7 +40,7 @@ function validateFirstName()
         showError("errorMessageForFirstName", "firstName");
    }
   else{
-   $('#firstName').css("border","solid 1px blue");
+   $('#firstName').css("border","solid 1px green");
 }}
 function validateFullName()
 {
@@ -51,7 +51,7 @@ function validateFullName()
       
    }
    else{
-    $('#fullName').css("border","solid 1px blue");
+    $('#fullName').css("border","solid 1px green");
  }
 }
 function validateDesignation()
@@ -62,7 +62,7 @@ function validateDesignation()
        showError("errorMessageForDesignation", "designation");
       
    } else{
-    $('#designation').css("border","solid 1px blue");
+    $('#designation').css("border","solid 1px green");
  }
 }
 function validateEmployeeNumber()
@@ -84,7 +84,7 @@ function validateEmployeeNumber()
     
       }
       else{
-        $('#emp_no').css("border","solid 1px blue");
+        $('#emp_no').css("border","solid 1px green");
      }
 }
 function validateBloodGroup()
@@ -107,7 +107,7 @@ function validateBloodGroup()
       
    }
    else{
-    $('#issues').css("border","solid 1px blue");
+    $('#issues').css("border","solid 1px green");
  }
 }
 function validateEmailId()
@@ -119,7 +119,7 @@ function validateEmailId()
       
    }
    else{
-    $('#email').css("border","solid 1px blue");
+    $('#email').css("border","solid 1px green");
  }
 //  if(checkEmail("email")) {
 //     valid = 1;
@@ -142,7 +142,7 @@ function validateEmployeeMobileNumber()
     
       }
       else{
-        $('#mobile').css("border","solid 1px blue");
+        $('#mobile').css("border","solid 1px green");
      }
 
 }
@@ -155,7 +155,7 @@ function validateEmployeeEmergencyNumber()
     
       }
       else{
-        $('#emergency').css("border","solid 1px blue");
+        $('#emergency').css("border","solid 1px green");
      }
 }
 
@@ -178,6 +178,7 @@ function checkNumbersOnly(id)
         return true;
     }
     return false;
+    
     
 }
 function checkLength(id, length)
